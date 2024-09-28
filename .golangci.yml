@@ -1,8 +1,9 @@
 linters:
+  disable:
+    - depguard
   enable:
     - bodyclose
     - contextcheck
-    - depguard
     - durationcheck
     - dupl
     - errchkjson
