@@ -2,6 +2,8 @@ module github.com/99designs/keyring
 
 go 1.19
 
+replace github.com/99designs/keyring => ./
+
 require (
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4
 	github.com/danieljoos/wincred v1.1.2
